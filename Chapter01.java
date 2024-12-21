@@ -56,6 +56,7 @@ public class Chapter01 {
         sehir1 = sehir2;
         sehir2 = "İzmir";
         System.out.println(sehir1 + " " +sehir2);
+//        Output:İstanbul, İzmir
     }
 
 }
