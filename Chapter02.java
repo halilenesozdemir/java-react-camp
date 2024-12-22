@@ -3,15 +3,15 @@ public static void main(String[] args){
 
     Product product1 = new Product();
     Product product2 = new Product();
-    product1.name= "Lenovo V15";
-    product1.id = 1;
-    product1.unitPrice=300;
-    product1.detail="Computer";
+    product1.setName("Lenovo V15");
+    product1.setId(3);
+    product1.setUnitPrice(300);
+    product1.setDetail("Computer");
 
-    product2.name= "Acer";
-    product2.id = 2;
-    product2.unitPrice=1000;
-    product2.detail="Computer";
+    product2.setName("Acer");
+    product2.setId(4);
+    product2.setUnitPrice(1000);
+    product2.setDetail("Computer");
 
     Product[] products = {product1,product2};
 
