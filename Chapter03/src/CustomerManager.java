@@ -7,4 +7,6 @@ public class CustomerManager {
         // Bir kodun içerisinde başka bir iş yapan sınıf newleniyorsa o koddan ileriye dönük hayır gelmez.
         logger.log();
     }
+
+
 }

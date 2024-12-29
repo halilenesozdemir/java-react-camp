@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Chapter03/Chapter03.iml" filepath="$PROJECT_DIR$/Chapter03/Chapter03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter03/GameExample/GameExample.iml" filepath="$PROJECT_DIR$/Chapter03/GameExample/GameExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter03/LearningEducationSystem/LearningEducationSystem.iml" filepath="$PROJECT_DIR$/Chapter03/LearningEducationSystem/LearningEducationSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java-react-camp.iml" filepath="$PROJECT_DIR$/.idea/java-react-camp.iml" />
     </modules>
   </component>
