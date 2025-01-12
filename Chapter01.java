@@ -1,5 +1,5 @@
 public class Chapter01 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         // camelCase
         // Don't repeat yourself!
         String internetSubeButonu = "İnternet Şubesine gir";
@@ -11,9 +11,9 @@ public class Chapter01 {
 
         // Blok açtığımız parantezlere ve blok sonuna ; konulmaz! Blok kapama parantezi zaten sonu anlatır!
 
-        if(dollarToday > dollarYesterday){
+        if (dollarToday > dollarYesterday) {
             System.out.println("The dollar is rising");
-        } else if(dollarToday < dollarYesterday){
+        } else if (dollarToday < dollarYesterday) {
             System.out.println("The dollar is decreasing");
         } else {
             System.out.println("The values are same");
@@ -33,10 +33,11 @@ public class Chapter01 {
         System.out.println(category5);
         System.out.println(category6);*/
 
-        String[] categories = {category1,category2,category3,category4,category5,category6};
+        String[] categories = {category1, category2, category3, category4, category5, category6};
 //        FOR EACH
-        for(String category: categories){
-            System.out.println(category);}
+        for (String category : categories) {
+            System.out.println(category);
+        }
 
         //    Primitive vs Reference
         int sayi1 = 10;
@@ -45,8 +46,8 @@ public class Chapter01 {
         sayi2 = 100;
         System.out.println(sayi1);
 
-        int[] sayilar1 = {1,2,3,4,5};
-        int[] sayilar2 = {10,20,30,40,50};
+        int[] sayilar1 = {1, 2, 3, 4, 5};
+        int[] sayilar2 = {10, 20, 30, 40, 50};
         sayilar1 = sayilar2;
         sayilar2[0] = 200;
         System.out.println(sayilar1[0]);
@@ -55,7 +56,7 @@ public class Chapter01 {
         String sehir2 = "İstanbul";
         sehir1 = sehir2;
         sehir2 = "İzmir";
-        System.out.println(sehir1 + " " +sehir2);
+        System.out.println(sehir1 + " " + sehir2);
 //        Output:İstanbul, İzmir
     }
 
